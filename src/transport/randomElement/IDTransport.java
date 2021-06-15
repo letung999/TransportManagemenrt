@@ -31,7 +31,6 @@ public class IDTransport {
                     listNumber.add(number);
                     char characters = id.charAt(number);
                     sb.append(characters);
-                    listNumber.add(number);
                     break;
                 } else {
                     number = randNumber(0, id.length() - 1);
